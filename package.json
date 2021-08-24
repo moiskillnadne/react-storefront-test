@@ -13,7 +13,7 @@
     "build": "layer0 build",
     "prod": "layer0 run --production",
     "test": "jest",
-    "deploy": "layer0 deploy react-storefront",
+    "deploy": "layer0 deploy react-starter-test",
     "prettier": "prettier --write \"**/*.js\" \"!{node_modules,.layer0,.next,.yalc}/**\"",
     "rsf:link": "rm -rf node_modules/react-storefront node_modules/react-storefront-analytics node_modules/react-storefront-amp && yalc add react-storefront react-storefront-analytics react-storefront-amp && npm i --prefer-offline",
     "layer0:link": "rm -rf node_modules/@layer0/core node_modules/@layer0/next && yalc add @layer0/next @layer0/core @layer0/cli @layer0/prefetch",
